@@ -77,10 +77,6 @@ class ArrayListTileUtils {
       startTiles.remove(0);
 
       while (worklist.size() > 0) {
-        // return the info you need to this method
-
-        // pass in worklist, seen, into a tile function
-        // then do these exact steps
 
         Tile next = worklist.removeFirst();
 
